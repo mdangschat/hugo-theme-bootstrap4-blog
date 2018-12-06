@@ -9,9 +9,9 @@ See [picturingjordan.com](https://picturingjordan.com) for an example of this th
 
 - Responsive design
 - Uses Bootstrap v4's [native system font stack](https://getbootstrap.com/docs/4.0/content/reboot/#native-font-stack) to load quickly and look good on all platforms
-- Basic [OpenGraph](http://ogp.me) and [Twitter Card](https://dev.twitter.com/cards/types) metadata support
+- Excellent [structured data](https://developers.google.com/search/docs/guides/intro-structured-data) (JSON-LD), [OpenGraph](http://ogp.me), and [Twitter Card](https://dev.twitter.com/cards/types) metadata support
 - robots.txt linking to XML sitemap (disabled by default, see [Hugo docs](https://gohugo.io/extras/robots-txt/))
-- Basic support for [multi-lingual content](https://gohugo.io/content-management/multilingual/) (added in Hugo 0.17)
+- Basic support for [multi-lingual content](https://gohugo.io/content-management/multilingual/) (added in Hugo 0.17) and user interface translation (i18n)
 - Supports Google, Bing, and Yandex site verification via meta tags
 - Supports Google Analytics (async version), see [Hugo docs](https://gohugo.io/extras/analytics/)
 - Supports Disqus comments, see [Hugo docs](https://gohugo.io/extras/comments/)
@@ -53,6 +53,4 @@ There are several ways to help with the development of the theme:
 - Fork [the repository](https://github.com/alanorth/hugo-theme-bootstrap4-blog) on GitHub, add features on a "feature" branch like `update-bootstrap`, and then send a [pull request](https://github.com/alanorth/hugo-theme-bootstrap4-blog/compare) with your changes
 
 ## License
-This repository contains the code of [Bootstrap](http://getbootstrap.com), which is licensed under the [MIT license](https://tldrlegal.com/license/mit-license), and [Font Awesome](http://fontawesome.io/), which uses [various licenses](http://fontawesome.io/license/).
-
-Otherwise, the contents are [GPLv3](https://www.gnu.org/licenses/gpl-3.0.txt).
+This repository contains SASS and HTML code from the [Bootstrap](https://getbootstrap.com) project, which is licensed under the [MIT license](https://tldrlegal.com/license/mit-license) and [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), and [Font Awesome](https://fontawesome.com/), which uses [various licenses](https://fontawesome.com/license/).
